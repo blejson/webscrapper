@@ -7,6 +7,7 @@ import re
 
 
 def search_images():
+    print("type quit to quit and resize images")
     search = input("Search for:")
     params = {"q": search}
     dir_name = "scraped_images"
